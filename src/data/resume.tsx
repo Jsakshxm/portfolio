@@ -28,6 +28,8 @@ export const DATA = {
     "AI",
     "Material UI",
     "MongoDB",
+    "Supabase",
+    "Firebase",
     
   ],
   navbar: [
@@ -54,20 +56,20 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/jsakshxm",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://youtube.com/jsakshxm",
         icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:jsakshxm.work@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -80,12 +82,12 @@ export const DATA = {
     {
       company: "Exp.club",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://exp.club",
       location: "Remote",
-      title: "Software Engineer",
+      title: "Founding Engineer",
       logoUrl: "/exp.club.jpeg",
-      start: "January 2021",
-      end: "April 2021",
+      start: "August 2024",
+      end: "Present",
       description:
         "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
     },
@@ -93,7 +95,7 @@ export const DATA = {
       company: "Pamprazzi",
       href: "",
       badges: [],
-      location: "Santa Clara, CA",
+      location: "Remote",
       title: "Software Engineer",
       logoUrl: "/pamprazzi_logo.jpeg",
       start: "January 2020",
@@ -103,7 +105,7 @@ export const DATA = {
     },
     {
       company: "Edgame",
-      href: "https://atomic.finance",
+      href: "https://edgame.io",
       badges: [],
       location: "Remote",
       title: "Web Developer",
@@ -111,17 +113,17 @@ export const DATA = {
       start: "May 2021",
       end: "Oct 2022",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Developed games using Unity, focusing on player actions to enhance game immersion\nDesigned user interfaces that are easy to use, aiming for straightforward and intuitive navigation\nBuilt web applications with Next.js, ensuring quick loading times and interactive features.",
     },
   ],
   education: [
     {
       school: "National Institute of Technology, Goa",
-      href: "https://buildspace.so",
+      href: "https://nitgoa.ac.in",
       degree: "BTech",
       logoUrl: "/nitgoa.jpeg",
-      start: "2023",
-      end: "2024",
+      start: "",
+      end: "",
     },
     
   ],
@@ -129,10 +131,10 @@ export const DATA = {
     {
       title: "DIY Learning",
       href: "https://diy-learning.sakshamjain.live",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "August 24 - Present",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "DIY-Learning is not your typical course platform. It's an AI-driven tool that crafts tailor-made courses based on your learning preferences and goals. We understand that everyone has a unique learning style, and with DIY-Learning, you get a course experience that is customized just for you.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -146,30 +148,30 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://diy-learning.sakshamjain.live",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://res.cloudinary.com/dgm7kbkn4/video/upload/v1729367895/diy_gpcgzd.mp4",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
+      title: "NutFlex: Movie Recommendation System",
+      href: "https://nutflex-gpt.vercel.app",
       dates: "June 2023 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "NutFlex GPT is an intelligent movie recommendation system designed to help you find your next favorite film effortlessly. Whether you're looking for the latest trending movies or personalized suggestions based on your taste, NutFlex GPT has you covered.",
       technologies: [
         "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "javascript",
+"LLM",
+
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+
+
+
       ],
       links: [
         {
@@ -184,11 +186,11 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "https://res.cloudinary.com/dgm7kbkn4/video/upload/v1729442100/loom-video_1_behwdm.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
+      title: "Socio bot",
+      href: "https://t.me/socio_bot",
       dates: "April 2023 - September 2023",
       active: true,
       description:
@@ -207,20 +209,20 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://t.me/socio_bot",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/jsakshxm/socio-bot",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "https://res.cloudinary.com/dgm7kbkn4/video/upload/v1729370254/socio_bot_tmr16b.mp4",
     },
     {
-      title: "Automatic Chat",
+      title: "NITG Menu bot",
       href: "https://automatic.chat",
       dates: "April 2023 - March 2024",
       active: true,
@@ -240,13 +242,71 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://t.me/NitgMenu_bot",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "https://res.cloudinary.com/dgm7kbkn4/video/upload/v1729441689/NitgMenu_bot_j2ea5t.mp4",
+    },
+    {
+      title: "Hola Youtube [No Ads]",
+      href: "https://hola-youtube.vercel.app",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "Designed, developed and sold animated UI components for developers.",
+      technologies: [
+        "Next.js",
+        "javascript",
+        "Youtube API",
+       
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hola-youtube.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jsakshxm/hola-youtube",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://res.cloudinary.com/dgm7kbkn4/image/upload/v1729444606/Screenshot_2024-02-27_at_12.20.57_AM_ngoelp.png",
+      video: "",
+    },
+    {
+      title: "Book Exchange Platform",
+      href: "https://hola-youtube.vercel.app",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "Designed, developed and sold animated UI components for developers.",
+      technologies: [
+        "Next.js",
+        "javascript",
+        "Youtube API",
+       
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://hola-youtube.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jsakshxm/hola-youtube",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://res.cloudinary.com/dgm7kbkn4/image/upload/v1729444606/Screenshot_2024-02-27_at_12.20.57_AM_ngoelp.png",
+      video: "",
     },
   ],
  
