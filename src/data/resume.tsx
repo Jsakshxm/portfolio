@@ -30,6 +30,8 @@ export const DATA = {
     "MongoDB",
     "Supabase",
     "Firebase",
+    "Product Management",
+    "User Experience",
     
   ],
   navbar: [
@@ -89,19 +91,23 @@ export const DATA = {
       start: "August 2024",
       end: "Present",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Developed landing pages, backend systems, and database design.\n"+
+"Implemented tanstack react query for caching\n"+
+"Collaborated with Product Manager and Product Designer and understood about product lifecycle from ideation to execution",
     },
     {
       company: "Pamprazzi",
-      href: "",
+      href: "https://pamprazzi.com",
       badges: [],
       location: "Remote",
       title: "Software Engineer",
       logoUrl: "/pamprazzi_logo.jpeg",
-      start: "January 2020",
-      end: "April 2020",
+      start: "July 24",
+      end: "August  24",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Founding Engineer, streamlining self-care through an all-in-one platform.\n"+
+"Built complete system architecture, from landing pages to database design.\n"+
+"Developed scalable, user-friendly booking solutions for personalized care services.",
     },
     {
       company: "Edgame",
@@ -157,6 +163,33 @@ export const DATA = {
         "https://res.cloudinary.com/dgm7kbkn4/video/upload/v1729367895/diy_gpcgzd.mp4",
     },
     {
+      title: "NoteWiise",
+      href: "https://note-wiise.vercel.app",
+      dates: "August 24 - Present",
+      active: true,
+      description:
+        "Built a web app where users can chat and take notes. Added secure sign-up and login for a smooth experience.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "TailwindCSS",
+        "RAG",
+        "Paypal",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://note-wiise.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dgm7kbkn4/video/upload/v1739814939/NoteWiise_d763dl.mp4",
+    },
+    {
       title: "NutFlex: Movie Recommendation System",
       href: "https://nutflex-gpt.vercel.app",
       dates: "June 2023 - Present",
@@ -192,7 +225,7 @@ export const DATA = {
       title: "Socio bot",
       href: "https://t.me/socio_bot",
       dates: "April 2023 - September 2023",
-      active: true,
+      active: false,
       description:
         "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
       technologies: [
@@ -290,7 +323,6 @@ export const DATA = {
         "Next.js",
         "javascript",
         "Youtube API",
-       
         "TailwindCSS",
       ],
       links: [
@@ -307,6 +339,101 @@ export const DATA = {
       ],
       image: "https://res.cloudinary.com/dgm7kbkn4/image/upload/v1729444606/Screenshot_2024-02-27_at_12.20.57_AM_ngoelp.png",
       video: "",
+    },
+    {
+      title: "Filter Pixel",
+      href: "https://filter-pixel-delta.vercel.app/",
+      dates: "August 2024 - August 2024",
+      active: true,
+      description:
+        "Image Processing App",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        ,
+
+
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://filter-pixel-delta.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://res.cloudinary.com/dgm7kbkn4/image/upload/v1730731268/Screenshot_2024-11-04_at_8.10.17_PM_nwbtu8.png",
+      video:
+        "",
+    },
+    {
+      title: "PDF God",
+      href: "https://treasurehunt.saavyas.in",
+      dates: "August 2024 - August 2024",
+      active: true,
+      description:
+        "Image Processing App",
+      technologies: [
+        "Next.js",
+        "Typescript",
+
+
+        "TailwindCSS",
+        ""
+
+
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://filter-pixel-delta.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jsakshxm/socio-bot",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://www.loom.com/share/d14564a66988494ba95cb7d74f01112b?sid=2f60175a-c765-4e5e-8d27-6fedc96a198c",
+    },
+    {
+      title: "Treasure Hunt NITGOA 2024",
+      href: "https://treasurehunt.saavyas.in",
+      dates: "August 2024 - August 2024",
+      active: true,
+      description:
+        "Image Processing App",
+      technologies: [
+        "Next.js",
+        "Typescript",
+
+
+        "TailwindCSS",
+        ""
+
+
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://filter-pixel-delta.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/jsakshxm/socio-bot",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://res.cloudinary.com/dgm7kbkn4/image/upload/v1730744541/Screenshot_2024-11-04_at_11.50.50_PM_wclsoi.png",
+      video:
+        "",
     },
   ],
  
