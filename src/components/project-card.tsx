@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { Icons } from "@/components/icons";
 
 interface Props {
   title: string;
@@ -48,19 +49,24 @@ export function ProjectCard({
     >
       <Link
         href={href || "#"}
-        className={cn("block cursor-pointer", className)}
+        className={cn("block cursor-pointer relative", className)}
       >
         {video && (
-          <video
-            src={video}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
-          />
+          <>
+            <video
+              src={video}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="pointer-events-none mx-auto h-40 w-full object-cover object-top"
+            />
+            <div className="absolute top-2 right-2">
+              <Icons.video className="size-6 text-white drop-shadow-lg" />
+            </div>
+          </>
         )}
-        {image && (
+        {image && !video && (
           <Image
             src={image}
             alt={title}

@@ -10,7 +10,7 @@ export const DATA = {
   description:
   "Full-stack developer passionate about creating impactful digital products. I've worked with multiple startups, building tools and solutions that people continue to use. I love turning ideas into real-world applications and thrive on solving problems through technology.",
   summary:
-  "Throughout my journey, I’ve always been a student of technology, constantly learning and taking on new challenges. I've had the privilege of working with multiple startups, building and scaling products that solve real problems. From winning hackathons to leading development teams, I love taking responsibility and delivering impactful solutions. Building digital products that people use and love is my passion.",
+  "Throughout my journey, I've always been a student of technology, constantly learning and taking on new challenges. I've had the privilege of working with multiple startups, building and scaling products that solve real problems. From winning hackathons to leading development teams, I love taking responsibility and delivering impactful solutions. Building digital products that people use and love is my passion.",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -154,10 +154,14 @@ export const DATA = {
           href: "https://diy-learning.sakshamjain.live",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "video",
+          href: "https://res.cloudinary.com/dgm7kbkn4/video/upload/v1729367895/diy_gpcgzd.mp4",
+          icon: <Icons.video className="size-3" />,
+        }
       ],
       image: "",
-      video:
-        "https://res.cloudinary.com/dgm7kbkn4/video/upload/v1729367895/diy_gpcgzd.mp4",
+      video: "https://res.cloudinary.com/dgm7kbkn4/video/upload/v1729367895/diy_gpcgzd.mp4",
     },
     {
       title: "NoteWiise",
